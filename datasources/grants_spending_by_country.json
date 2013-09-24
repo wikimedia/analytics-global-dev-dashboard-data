@@ -1,0 +1,28 @@
+{
+    "columns": [
+        {
+            "type": "string", 
+            "id": "id", 
+            "label": "ID"
+        }, 
+        {
+            "type": "string", 
+            "id": "name", 
+            "label": "Name"
+        }, 
+        {
+            "type": "int", 
+            "id": "amount_funded", 
+            "label": "Amount Funded"
+        }
+    ], 
+    "name": "Grants Spending by Country",
+    "format": "json", 
+    "url": "/data/datafiles/gp/grants_spending_by_country.json", 
+    "shortName": "", 
+    "desc": "", 
+    "type": "mobile_device_by_geo", 
+    "id": "grants_spending_by_country", 
+    "notes": "", 
+    "slug": "grants_spending_by_country"
+}

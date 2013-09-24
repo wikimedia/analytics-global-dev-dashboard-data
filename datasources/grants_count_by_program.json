@@ -1,0 +1,46 @@
+{
+    "name": "Number of Grants by Program", 
+    "timespan": {
+        "start": "2012/12/01", 
+        "step": "1d", 
+        "end": "2013/06/01"
+    }, 
+    "url": "/data/datafiles/gp/grants_count_by_program.csv", 
+    "notes": "", 
+    "format": "csv", 
+    "slug": null, 
+    "shortName": "Number of Grants by Program", 
+    "type": "timeseries", 
+    "id": "grants_count_by_program", 
+    "columns": [
+        {
+            "type": "date", 
+            "label": "date"
+        }, 
+        {
+            "type": "int", 
+            "label": "FDC"
+        }, 
+        {
+            "type": "int", 
+            "label": "Fellowships"
+        }, 
+        {
+            "type": "int", 
+            "label": "Grants Program"
+        }, 
+        {
+            "type": "int", 
+            "label": "IEG"
+        }, 
+        {
+            "type": "int", 
+            "label": "PSP"
+        }, 
+        {
+            "type": "int", 
+            "label": "Wikimania Scholarships"
+        }
+    ], 
+    "desc": ""
+}

@@ -1,0 +1,74 @@
+{
+    "graph_version": "0.6.0", 
+    "name": "Grants Spending by Country",
+    "notes": "", 
+    "shortName": "", 
+    "desc": "", 
+    "root": {
+        "disabled": false, 
+        "width": "auto", 
+        "nodeType": "canvas", 
+        "minWidth": 750, 
+        "yPadding": 0.1, 
+        "xPadding": 0, 
+        "minHeight": 500, 
+        "children": [
+            {
+                "disabled": false, 
+                "metric": {
+                    "source_id": "map-world_countries", 
+                    "type": "int"
+                }, 
+                "nodeType": "geo-map", 
+                "options": {
+                    "projection": "mercator", 
+                    "backgroundColor": "white", 
+                    "featuresColor": "#EEEEEE"
+                }, 
+                "children": [
+                    {
+                        "disabled": false, 
+                        "metric": {
+                            "source_id": "grants_spending_by_country", 
+                            "type": "int", 
+                            "source_col": "amount_funded"
+                        }, 
+                        "nodeType": "geo-feature", 
+                        "options": {
+                            "valueFormat": ",.2s", 
+                            "scale": "log", 
+                            "fill": [
+                                "#D4E7ED", 
+                                "#0A3A4B"
+                            ], 
+                            "label": "Amount Funded"
+                        }, 
+                        "stroke": {
+                            "color": "#FFFFFF", 
+                            "width": 3, 
+                            "opacity": [
+                                0, 
+                                1
+                            ]
+                        }
+                    }, 
+                    {
+                        "disabled": false, 
+                        "nodeType": "zoom-pan", 
+                        "options": {
+                            "max": 10, 
+                            "min": 1
+                        }
+                    }, 
+                    {
+                        "disabled": false, 
+                        "nodeType": "infobox"
+                    }
+                ]
+            }
+        ], 
+        "height": 750
+    }, 
+    "id": "grants_spending_by_country", 
+    "slug": "grants_spending_by_country"
+}

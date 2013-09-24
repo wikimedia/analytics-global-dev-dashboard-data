@@ -1,0 +1,98 @@
+#!/usr/bin/env coco
+
+#process.env.NODE_PATH += ':/srv/global-dev.wmflabs.org/limn/node_modules'
+#console.warn NODE_PATH
+
+fs                      = require 'fs'
+path    = {dirname}     = require 'path'
+subproc = {exec, spawn} = require 'child_process'
+exists  = fs.existsSync or path.existsSync
+
+express        = require 'express'
+LimnMiddleware = require '../src/server/middleware'
+
+DATA_DIR = process.env.GLOBAL_DEV_DATA
+
+/**
+ * Create server
+ */
+app = exports = module.exports = express.createServer()
+
+app.use (req, res, next) ->
+    if /\.(csv|txt)$/.test req.url
+#        res.header('Content-Type', 'text/plain')
+        res.header('Content-Type', 'text/plain;charset=utf-8')
+    next()
+
+/**
+ * Load Limn middleware
+ */
+limn = app.limn = LimnMiddleware do
+    varDir  : './var'
+    dataDir : './var/data'
+    proxy :
+        enabled   : true
+        whitelist : /.*/
+
+app.use limn
+# app.use '/vis', limn
+
+# show exceptions, pretty stack traces ### FIXME
+app.use express.errorHandler { +dumpExceptions, +showStack }
+
+/**
+ * Handle webhook notification to pull from origin.
+ */
+app.all '/webhook/data-update', (req, res) ->
+    res.contentType '.txt'
+    buf  = ''
+    cwd  = if DATA_DIR then dirname(DATA_DIR) else process.cwd()
+    
+    git_dir = if DATA_DIR then "--git-dir=#DATA_DIR " else ''
+    cmd = "git #git_dir status"
+    console.log "[/webhook/data-update] $ #cmd"
+    
+    # exec the pull async
+    child = exec cmd, {cwd}, (err, stdout, stderr) ->
+        console.log '[/webhook/data-update]  ', stdout
+        console.log '[/webhook/data-update]  ', stderr
+        if err
+            console.error '[/webhook/data-update] ERROR!', err
+            return res.send "$ #cmd\n\n#stdout\n\n#stderr\n\nERROR! #err", 503
+        else
+            buf += "$ #cmd\n\n#stdout\n\n#stderr\n"
+        
+        cmd = "git #git_dir pull"
+        console.log "[/webhook/data-update] $ #cmd"
+        
+        # exec the pull async
+        child = exec cmd, {cwd}, (err, stdout, stderr) ->
+            console.log '[/webhook/data-update]  ', stdout
+            console.log '[/webhook/data-update]  ', stderr
+            if err
+                console.error '[/webhook/data-update] ERROR!', err
+                buf += "$ #cmd\n\n#stdout\n\n#stderr\n\nERROR! #err\n"
+                res.send buf, 503
+            else
+                buf += "$ #cmd\n\n#stdout\n\n#stderr\n"
+                res.send buf, 200
+
+
+
+mainfile = path.basename require.main?.filename
+if require.main is module or 'Cokefile' is mainfile
+    PORT = 8081
+    PORT = parseInt(that, 10) if process.env.LIMN_PORT
+    
+    NODE_ENV  = process.env.NODE_ENV or 'development'
+    
+    REV = process.env.LIMN_REV or 'HEAD'
+    try REV = require '../version' catch e
+    err, stdout, stderr <- exec 'git rev-parse --short HEAD', {cwd:process.cwd(), env:process.env}
+    throw err if err
+    REV = stdout.trim! unless REV
+    
+    console.log s = "Limn Server, Global Dev Flava (port=#PORT, env=#NODE_ENV, rev=#REV, data_update_repo=#DATA_DIR)"
+    console.log '=' * s.length
+    app.listen PORT
+

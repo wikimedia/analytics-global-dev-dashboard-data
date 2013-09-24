@@ -1,0 +1,370 @@
+{
+    "name": "round1-pageviews", 
+    "timespan": {
+        "start": "2012-06-01", 
+        "step": "1d", 
+        "end": "2013-01-31"
+    }, 
+    "url": "/data/datafiles/gp/round1-pageviews.csv", 
+    "notes": "", 
+    "format": "csv", 
+    "slug": null, 
+    "shortName": "round1-pageviews", 
+    "type": "timeseries", 
+    "id": "round1-pageviews", 
+    "columns": [
+        {
+            "type": "date", 
+            "label": "date"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example/Hub"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example2"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example2/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example2/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Example2/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Staff_summary/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Staff_summary/Progress_report_form/Q1/fr"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/WMUK"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/WMUK/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/WMUK/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/WMUK/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/WMUK/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/WM_IL/Progress_report/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/WM_Israel/Progress_report/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Argentina"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Argentina/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Argentina/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Argentina/Proposal_form/Budget_proposal"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Argentina/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Argentina/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Australia"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Australia/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Australia/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Australia/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_CH"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_CH/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_CH/Progress_report_form/Q2"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_CH/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_CH/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_CH/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Deutschland"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Deutschland/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Deutschland/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Deutschland/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Deutschland/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Foundation"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Foundation/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Foundation/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Foundation/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Foundation/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_France"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_France/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_France/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_France/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_France/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Indonesia/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Israel"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Israel/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Israel/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Israel/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Israel/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Italia"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Italia/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Nederland"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Nederland/Detailed_Budget_2013"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Nederland/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Nederland/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Nederland/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Nederland/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Philippines"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Philippines/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Sverige"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Sverige/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Sverige/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Sverige/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_Sverige/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_UK/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_\u00d6sterreich"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_\u00d6sterreich/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_\u00d6sterreich/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_\u00d6sterreich/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikimedia_\u00d6sterreich/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_France"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_France/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_France/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_France/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_France/Tab_view"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_Magyarorsz\u00e1g"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_Magyarorsz\u00e1g/Letter_of_intent"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_Magyarorsz\u00e1g/Progress_report_form/Q1"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_Magyarorsz\u00e1g/Proposal_form"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_Magyarorsz\u00e1g/Staff_proposal_assessment"
+        }, 
+        {
+            "type": "int", 
+            "label": "http://meta.wikimedia.org/wiki/FDC_portal/Proposals/2012-2013_round1/Wikim\u00e9dia_Magyarorsz\u00e1g/Tab_view"
+        }
+    ], 
+    "desc": ""
+}

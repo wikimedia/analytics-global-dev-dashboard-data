@@ -1,0 +1,1664 @@
+{
+  "graph_version": "0.6.0", 
+  "name": "round1-pageviews", 
+  "notes": "", 
+  "slug": "round1-pageviews", 
+  "shortName": "", 
+  "root": {
+    "scaling": "linear", 
+    "nodeType": "canvas", 
+    "minWidth": 750, 
+    "minHeight": 500, 
+    "height": 500, 
+    "disabled": false, 
+    "width": "auto", 
+    "children": [
+      {
+        "disabled": false, 
+        "nodeType": "axis", 
+        "options": {
+          "tickFormat": "MMM YY", 
+          "dimension": "x", 
+          "orient": "bottom"
+        }
+      }, 
+      {
+        "disabled": false, 
+        "nodeType": "axis", 
+        "options": {
+          "tickFormat": "MMM YY", 
+          "dimension": "y", 
+          "orient": "left"
+        }
+      }, 
+      {
+        "disabled": false, 
+        "nodeType": "grid", 
+        "options": {
+          "ticks": 10, 
+          "dimension": "x"
+        }
+      }, 
+      {
+        "disabled": false, 
+        "nodeType": "grid", 
+        "options": {
+          "ticks": 10, 
+          "dimension": "y"
+        }
+      }, 
+      {
+        "disabled": false, 
+        "nodeType": "zoom-brush", 
+        "options": {
+          "allowY": true, 
+          "allowX": true
+        }
+      }, 
+      {
+        "nodeType": "callout", 
+        "target": "latest", 
+        "disabled": false, 
+        "steps": [
+          "1y", 
+          "1M"
+        ], 
+        "metricRef": 0, 
+        "options": {
+          "deltaPercent": true, 
+          "dateFormat": "MMM YYYY", 
+          "colorDelta": true
+        }
+      }, 
+      {
+        "disabled": false, 
+        "nodeType": "legend", 
+        "options": {
+          "valueFormat": ",.2s", 
+          "dateFormat": "MMM DD YYYY"
+        }, 
+        "label": "Aug 2012"
+      }, 
+      {
+        "disabled": false, 
+        "nodeType": "line-group", 
+        "options": {
+          "stroke": {
+            "opacity": 1, 
+            "width": 2
+          }
+        }, 
+        "children": [
+          {
+            "disabled": false, 
+            "index": 0, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 1
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 1, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 2
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 2, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 3
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 3, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 4
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 4, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 5
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 5, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 6
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 6, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 7
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 7, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 8
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 8, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 9
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 9, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 10
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 10, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 11
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 11, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 12
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 12, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 13
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 13, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 14
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 14, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 15
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 15, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 16
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 16, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 17
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 17, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 18
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 18, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 19
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 19, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 20
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 20, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 21
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 21, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 22
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 22, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 23
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 23, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 24
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 24, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 25
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 25, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 26
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 26, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 27
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 27, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 28
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 28, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 29
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 29, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 30
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 30, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 31
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 31, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 32
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 32, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 33
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 33, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 34
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 34, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 35
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 35, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 36
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 36, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 37
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 37, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 38
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 38, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 39
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 39, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 40
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 40, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 41
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 41, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 42
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 42, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 43
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 43, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 44
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 44, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 45
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 45, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 46
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 46, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 47
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 47, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 48
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 48, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 49
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 49, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 50
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 50, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 51
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 51, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 52
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 52, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 53
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 53, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 54
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 54, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 55
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 55, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 56
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 56, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 57
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 57, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 58
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 58, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 59
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 59, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 60
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 60, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 61
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 61, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 62
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 62, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 63
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 63, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 64
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 64, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 65
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 65, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 66
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 66, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 67
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 67, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 68
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 68, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 69
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 69, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 70
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 70, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 71
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 71, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 72
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 72, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 73
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 73, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 74
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 74, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 75
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 75, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 76
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 76, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 77
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 77, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 78
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 78, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 79
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 79, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 80
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 80, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 81
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 81, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 82
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 82, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 83
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 83, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 84
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 84, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 85
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 85, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 86
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }, 
+          {
+            "disabled": false, 
+            "index": 86, 
+            "metric": {
+              "source_id": "round1-pageviews", 
+              "type": "int", 
+              "source_col": 87
+            }, 
+            "nodeType": "line", 
+            "options": {
+              "stroke": {
+                "width": 2
+              }, 
+              "label": null, 
+              "noLegend": false, 
+              "dateFormat": "MMM YYYY"
+            }
+          }
+        ]
+      }
+    ]
+  }, 
+  "id": "round1-pageviews", 
+  "desc": ""
+}

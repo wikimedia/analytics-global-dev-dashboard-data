@@ -1,0 +1,38 @@
+{
+    "name": "Number of Grants by Global South", 
+    "timespan": {
+        "start": "2012/12/01", 
+        "step": "1d", 
+        "end": "2013/06/01"
+    }, 
+    "url": "/data/datafiles/gp/grants_count_by_global_south.csv", 
+    "notes": "", 
+    "format": "csv", 
+    "slug": null, 
+    "shortName": "Number of Grants by Global South", 
+    "type": "timeseries", 
+    "id": "grants_count_by_global_south", 
+    "columns": [
+        {
+            "type": "date", 
+            "label": "date"
+        }, 
+        {
+            "type": "int", 
+            "label": "N/A"
+        }, 
+        {
+            "type": "int", 
+            "label": "North"
+        }, 
+        {
+            "type": "int", 
+            "label": "South"
+        }, 
+        {
+            "type": "int", 
+            "label": "north"
+        }
+    ], 
+    "desc": ""
+}

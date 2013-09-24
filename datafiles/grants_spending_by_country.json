@@ -1,0 +1,162 @@
+[
+    {
+        "amount_funded": 148789.0, 
+        "name": "Argentina", 
+        "id": "ARG"
+    }, 
+    {
+        "amount_funded": 15530.23, 
+        "name": "Australia", 
+        "id": "AUS"
+    }, 
+    {
+        "amount_funded": 220000.0, 
+        "name": "Austria", 
+        "id": "AUT"
+    }, 
+    {
+        "amount_funded": 8763.92, 
+        "name": "Bangladesh", 
+        "id": "BGD"
+    }, 
+    {
+        "amount_funded": 2869.0, 
+        "name": "Belgium", 
+        "id": "BEL"
+    }, 
+    {
+        "amount_funded": 14605.0, 
+        "name": "Brazil", 
+        "id": "BRA"
+    }, 
+    {
+        "amount_funded": 8874.369999999999, 
+        "name": "Canada", 
+        "id": "CAN"
+    }, 
+    {
+        "amount_funded": 350.0, 
+        "name": "China", 
+        "id": "CHN"
+    }, 
+    {
+        "amount_funded": 1225.0, 
+        "name": "Egypt", 
+        "id": "EGY"
+    }, 
+    {
+        "amount_funded": 619000.0, 
+        "name": "France", 
+        "id": "FRA"
+    }, 
+    {
+        "amount_funded": 1791300.0, 
+        "name": "Germany", 
+        "id": "DEU"
+    }, 
+    {
+        "amount_funded": 3306.0, 
+        "name": "Ghana", 
+        "id": "GHA"
+    }, 
+    {
+        "amount_funded": 67477.0, 
+        "name": "Hungary", 
+        "id": "HUN"
+    }, 
+    {
+        "amount_funded": 10512.0, 
+        "name": "India", 
+        "id": "IND"
+    }, 
+    {
+        "amount_funded": 141172.0, 
+        "name": "Israel", 
+        "id": "ISR"
+    }, 
+    {
+        "amount_funded": 126529.5, 
+        "name": "Italy", 
+        "id": "ITA"
+    }, 
+    {
+        "amount_funded": 2300.0, 
+        "name": "Kenya", 
+        "id": "KEN"
+    }, 
+    {
+        "amount_funded": 1400.0, 
+        "name": "Korea, Republic of", 
+        "id": "KOR"
+    }, 
+    {
+        "amount_funded": 11023.0, 
+        "name": "Mexico", 
+        "id": "MEX"
+    }, 
+    {
+        "amount_funded": 2200.0, 
+        "name": "Morocco", 
+        "id": "MAR"
+    }, 
+    {
+        "amount_funded": 354848.47, 
+        "name": "Netherlands", 
+        "id": "NLD"
+    }, 
+    {
+        "amount_funded": 146400.0, 
+        "name": "Norway", 
+        "id": "NOR"
+    }, 
+    {
+        "amount_funded": 1950.0, 
+        "name": "Philippines", 
+        "id": "PHL"
+    }, 
+    {
+        "amount_funded": 101018.38, 
+        "name": "Serbia", 
+        "id": "SRB"
+    }, 
+    {
+        "amount_funded": 735.0, 
+        "name": "Slovakia", 
+        "id": "SVK"
+    }, 
+    {
+        "amount_funded": 27315.0, 
+        "name": "South Africa", 
+        "id": "ZAF"
+    }, 
+    {
+        "amount_funded": 15850.0, 
+        "name": "Spain", 
+        "id": "ESP"
+    }, 
+    {
+        "amount_funded": 341570.0, 
+        "name": "Sweden", 
+        "id": "SWE"
+    }, 
+    {
+        "amount_funded": 362000.0, 
+        "name": "Switzerland", 
+        "id": "CHE"
+    }, 
+    {
+        "amount_funded": 560135.95, 
+        "name": "United Kingdom", 
+        "id": "GBR"
+    }, 
+    {
+        "amount_funded": 152461.39, 
+        "name": "United States", 
+        "id": "USA"
+    }, 
+    {
+        "amount_funded": 13224.71, 
+        "name": "Venezuela, Bolivarian Republic of", 
+        "id": "VEN"
+    }
+]
