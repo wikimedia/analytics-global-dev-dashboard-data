@@ -4,13 +4,6 @@
     "subhead"  : "Dashboard",
     "tabs": [
         {
-            "name": "Core",
-            "graph_ids":[
-              "global_north_south_active_editors",
-              "global_south_editor_fractions",
-              "active_editors_by_region" 
-            ]
-        },{
             "name": "Grants",
             "graph_ids": [
               "grants_spending_by_country",
@@ -18,11 +11,6 @@
               "grants_count_by_program",
               "grants_spending_by_global_south",
               "grants_count_by_global_south"
-            ]
-        },{
-            "name": "Brazil",
-            "graph_ids": [
-              "pt_wp_brazil"
             ]
         }
     ]
